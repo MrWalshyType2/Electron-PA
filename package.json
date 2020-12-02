@@ -1,0 +1,27 @@
+{
+  "name": "electron-pa",
+  "version": "1.0.0",
+  "description": "Electron personal assistant",
+  "main": "main.js",
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "electron": "^11.0.3",
+    "electron-store": "^6.0.1"
+  },
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrWalshyType2/Electron-PA.git"
+  },
+  "author": "Morgan Walsh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrWalshyType2/Electron-PA/issues"
+  },
+  "homepage": "https://github.com/MrWalshyType2/Electron-PA#readme"
+}
