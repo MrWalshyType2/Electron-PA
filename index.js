@@ -1,5 +1,7 @@
 const fs = require('fs').promises;
 const $ = jQuery = require('jquery');
+const { ipcRenderer } = require('electron');
+const CurrentWeather = require('./domains/CurrentWeather');
 
 let root = document.getElementById("root");
 let scriptContainer = document.getElementById("scripts");

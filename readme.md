@@ -28,6 +28,8 @@ Electron is an open-source framework, originally developed by GitHub for develop
 
 ### Dependencies
 - jQuery 3.5.1
+- properties-reader 2.1.1
+- node-fetch 2.6.1
 
 ### Dev-Dependencies
 - electron 11.0.3
