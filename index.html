@@ -7,8 +7,20 @@
     <link rel="stylesheet" href="./css/bootstrap.min.4.5.3.css">
 </head>
 <body>
-    <div id="root">
-        
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 px-0">
+                <nav class="nav flex-column">
+                    <h3 class="px-3 pt-1 pb-3 m-0 bg-dark text-light">Menu</h3>
+                    <a class="nav-link" href="#" id="dashBtn">Dashboard</a>
+                    <a class="nav-link" href="#" id="calBtn">Calendar</a>
+                    <a class="nav-link" href="#" id="journBtn">Journals</a>
+                </nav>
+            </div>
+            <div class="col-10 px-0">
+                <div id="root"></div>
+            </div>
+        </div>
     </div>
     <div id="scripts">
         <script src="./index.js"></script>

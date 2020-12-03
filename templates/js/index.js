@@ -1,7 +1,3 @@
-document.getElementById('toTest').addEventListener('click', () => {
-    readFile('./templates/test.html');
-});
-
 document.getElementById('weatherRequest').addEventListener('click', () => {
     ipcRenderer.send('weather-request');
 });

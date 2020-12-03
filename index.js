@@ -3,8 +3,22 @@ const $ = jQuery = require('jquery');
 const { ipcRenderer } = require('electron');
 const CurrentWeather = require('./domains/CurrentWeather');
 
+const date = new Date();
+
 let root = document.getElementById("root");
 let scriptContainer = document.getElementById("scripts");
+
+let dashboardBtn = document.getElementById("dashBtn");
+let calendarBtn = document.getElementById("calBtn");
+let journalBtn = document.getElementById("journBtn");
+
+dashboardBtn.addEventListener('click', () => {
+    readFile('./templates/index.html');
+});
+
+calendarBtn.addEventListener('click', () => {
+    readFile('./templates/calendar.html');
+});
 
 async function readFile(filePath) {
     try {
